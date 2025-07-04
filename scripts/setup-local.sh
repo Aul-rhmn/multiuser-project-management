@@ -4,7 +4,7 @@
 echo "Setting up local development environment..."
 
 # Install dependencies
-npm install
+npm install --legacy-peer-deps
 
 # Setup environment variables
 if [ ! -f .env.local ]; then
